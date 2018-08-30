@@ -1,139 +1,299 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Danny Ward - Web Developer</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-new.css">
   </head>
-
   <body>
     <div class="wrapper">
-      <header class="main-header" id="#top">
-        <div class="container clearfix">
-          <img class="face" src="img/face1.jpg" alt=""></img>
-          <h1 class="name">Danny Ward</h1>
-          <h1 class="name">- Web Developer</h1>
-          <nav>
-            <ul class="main-nav">
-              <li><a href="#profile">Profile</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#resume">Resume</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
+      <header>
+        <nav class="navbar-dark bg-dark navbar-expand-lg">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+           <li class="nav-item active mx-5"><a class="nav-link" href="#top">Home</a></li>
+          <li class="nav-item active mx-5"><a class="nav-link" href="#aboutMe">About Me</a></li>
+          <li class="nav-item active mx-5"><a class="nav-link" href="#myProjects">My Projects</a></li>
+          <li class="nav-item active mx-5"><a class="nav-link" href="#contactMe">Contact Me</a></li>
+        </ul>
         </div>
-      </header>
-      <main class="main-content">
-        <div class="profile" id="profile">
-          <h1>My Profile</h1>
-          <section class="intro col">
-            <h2>Introduction</h2>
-              <p>Welcome to my portfolio site. My name is Danny and I am a web developer based in Perth, Western Australia. On this site you will find all my projects and a link to my resume. If you would like me to develop a website for your business, please view the <a href="#contact">Contact</a> section of this site.</p>
-          </section>
-          <section class="about col">
-            <h2>About Me</h2>
-              <p>I am a 28 year old guy who lives and works in the south eastern suburbs of Perth. I was born and raised in Perth. I enjoy playing video games and watching movies and tv. I am passionate about politics, both Australian and American. My favourite sports to watch are Formula One and tennis. The majority of my work experience has been in the field of transport. I am an aspiring web developer and I am studying the Front End Web Development Track at <a href="https://teamtreehouse.com/home">Team Treehouse</a>.</p>
-          </section>
-        </div>
-        <div class="projects" id="projects">
-          <h1>My Projects</h1>
-
-          <section class="col">
-            <h2><a href="../jammers-footy-tipping/index.html" target="_blank">Jammers Footy Tipping</h2>
-              <img src="img/jammers.jpg" alt=""></a>
-              <p>Jammers Cricket Team online AFL Footy Tipping Page.</p>
-          </section>
-
-          <section class="col">
-            <h2><a href="../weather-app/index.html" target="_blank">Dannaroo's Weather App</h2>
-              <img src="img/weatherapp.jpg" alt=""></a>
-              <p>A weather app using openweathermap.org API</p>
-          </section>
-
-          <section class="col">
-            <h2><a href="../cake-bakers/index.html" target="_blank">Cake Bakers</h2>
-              <img src="img/cakebakers.jpg" alt=""></a>
-              <p>My first solo project using Bootstrap. An online cake shop.</p>
-          </section>
-          <section class="col">
-            <h2><a href="../Treehouse%20Workspaces/2-%20Responsive%20Layouts%20with%20the%20Bootstrap%20Grid/3-%20How%20the%20Bootstrap%20Grid%20Works/start/index.html" target="_blank">Full Stack Conf</h2>
-              <img src="img/fullstackconf.jpg" alt=""></a>
-              <p>My first project using Bootstrap. Guided by Team Treehouse.</p>
-          </section>
-          <section class="col">
-            <h2><a href="../conquer/index.html" target="_blank">Conquer Clone</h2>
-              <img src="img/conquer.jpg" alt=""></a>
-              <p>My attempt at copying a website template. The template can be found <a href="https://www.free-css.com/free-css-templates/page196/conquer" target="_blank">here</a>.</p>
-          </section>
-          <section class="col">
-            <h2><a href="../aarons-favourite-movies/index.html" target="_blank">Aaron's Favourite Movies</h2>
-              <img src="img/aarons-favourite-movies.jpg" alt=""></a>
-              <p>A Top 10 movie list that can be modified by the user. Built using JavaScript.</p>
-          </section>
-          <section class="col">
-            <h2><a href="../skateshoe-emporium/index.html" target="_blank">Skateshoe Emporium</h2>
-              <img src="img/skateshoeemporium.jpg" alt=""></a>
-              <p>A website built with HTML and CSS of an online shop.</p>
-          </section>
-          <section class="col">
-            <h2><a href="../auspolassay/index.html" target="_blank">OneFiftyOne</h2>
-              <img src="img/onefiftyone.jpg" alt=""></a>
-              <p>Dedicated to the next Australian Federal Election. Built using my HTML and CSS skills.</p>
-          </section>
-          <section class="col">
-            <h2><a href="../cityquiz/index.html" target="_blank">Capital City Quiz</h2>
-              <img src="img/cityquiz.jpg" alt=""></a>
-              <p>Test your knowledge of capital cities around the world! Built using my JavaScript skills.</p>
-          </section>
-          <section class="col">
-            <h2><a href="../project/index.html" target="_blank">Experience VR & More</h2>
-              <img src="img/experiencevr.jpg" alt=""></a>
-              <p>Outlines the possibilities of VR. Built using my HTML and CSS skills.</p>
-          </section>
-          <section class="col">
-            <h2><a href="../tributepage/tributepage.html" target="_blank">Tribute Page</h2>
-              <img src="img/tributepage.jpg" alt=""></a>
-              <p>A tribute page. Built using my HTML skills.</p>
-          </section>
-        </div>
-        <div class="resume" id="resume">
-          <h1>My Resume</h1>
-          <section class="col">
-            <h2><a href="#top">Resume</h2>
-              <img src="img/resume.jpg" alt=""></a>
-              <p>Download my Resume.</p>
-          </section>
-          <div class="contact" id="contact">
-            <h1>Contact</h1>
-            <section class="col">
-              <h2>Links</h2>
-                <p><a href="mailto:liege88@gmail.com" target="_blank">Email</a></p>
-                <p><a href="https://twitter.com/Dannaroo" target="_blank">Twitter</a></p>
-                <p><a href="https://www.instagram.com/dannaroo/" target="_blank">Instagram</a></p>
-                <p><a href="https://github.com/Dannaroo" target="_blank">GitHub</a></p>
-            </section>
-            <section class="col">
-              <h2>Send Me A Message</h2>
-                <form>
-                  <label for="name">Name:</label>
-                  <input type="text" id="name" name="user_name">
-
-                  <label for="mail">Email:</label>
-                  <input type="email" id="mail" name="user_email">
-
-                  <label for="message">Message:</label>
-                  <textarea rows="4" cols="50" id="message" name="user_message"></textarea>
-
-                  <button type="submit">Send Your Message</button>
-                </form>
-            </section>
+        </nav>
+        <div class="jumbotron jumbotron-fluid text-center">
+          <div class="container">
+            <img class="face" src="img/face1.jpg" alt="">
+            <h1 class="display-4" id="jumbo-title">Danny Ward</h1>
+            <span class="lead" id="jumbo-span">Web Developer</span>
           </div>
-        </div>
-      </main>
-    </div>
-    <footer class="main-footer">
-      <span><small>Written and coded by Danny Ward</small></span><br>
-      <a href="#top">Back to top &raquo;</a>
-    </footer>
-  </body>
+        </div><!-- /Jumbotron -->
+      </header>
 
+      <main>
+
+        <div id="aboutMe">
+          <div class="jumbotron jumbotron-fluid section-headers">
+            <h2 class="display-5 text-center">About Me</h2>
+          </div><!-- /Jumbotron -->
+          <div class="container">
+            <div class="row text-left text-white">
+              <div class="col-md mx-2">
+                <h4 class="mb-5">Introduction</h4>
+                  <p>Welcome to my portfolio website. My name is Danny and I am a web developer based in Perth, Western Australia. On this website you will find all my projects. If you would like me to develop a website for your business, please view the <a href="#contactMe">Contact</a> section of this website.</p>
+              </div><!-- /Column1 -->
+              <div class="col-md mx-2">
+                <h4 class="mb-5">About Me</h4>
+                  <p>I am a 28 year old guy who lives and works in the south eastern suburbs of Perth. I was born and raised in Perth. I enjoy playing video games and watching movies and tv. I am passionate about politics, both Australian and American. My favourite sports to watch are Formula One and tennis. The majority of my work experience has been in the field of transport. I am an aspiring web developer and I am studying the Front End Web Development Track at <a href="https://teamtreehouse.com/home">Team Treehouse</a>.</p>
+              </div><!-- //Column1 -->
+            </div><!-- /Row1 -->
+          </div><!-- /Container  -->
+        </div><!-- /About Me  -->
+
+        <div id="myProjects"
+          <div class="jumbotron jumbotron-fluid text-center section-headers">
+            <h2 class="display-5">My Projects</h2>
+          </div><!-- /Jumbotron -->
+
+          <div class="container">
+            <div class="card-deck">
+
+              <div class="row justify-content-center">
+
+                <div class="col-lg-4">
+                  <div class="card text-white bg-dark mb-3 shadow rounded">
+                    <a href="../jammers-footy-tipping/index.html" target="_blank">
+                      <img src="img/jammers.jpg" class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Jammers Footy Tipping</h5>
+                      <p class="card-text">Jammers Cricket Team online AFL Footy Tipping Page.</p>
+                    </div>
+                  </div>
+                </div><!-- //Column3 -->
+
+              </div><!-- /Row4 -->
+
+              <div class="row">
+
+                <div class="col-lg-4">
+                  <div class="card text-white bg-dark mb-3 shadow rounded">
+                    <a href="../weather-app/index.html" target="_blank">
+                      <img src="img/weatherapp.jpg" class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Dannaroo's Weather App</h5>
+                      <p class="card-text">A weather app using openweathermap.org API.</p>
+                    </div>
+                  </div>
+                </div><!-- //Column1 -->
+
+                <div class="col-lg-4">
+                  <div class="card text-white bg-dark mb-3 shadow rounded">
+                    <a href="../cake-bakers/index.html" target="_blank">
+                      <img src="img/cakebakers.jpg" class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Cake Bakers</h5>
+                      <p class="card-text">My first solo project using Bootstrap. An online cake shop.</p>
+                    </div>
+                  </div>
+                </div><!-- //Column2 -->
+
+                <div class="col-lg-4">
+                  <div class="card text-white bg-dark mb-3 shadow rounded">
+                    <a href="../Treehouse%20Workspaces/2-%20Responsive%20Layouts%20with%20the%20Bootstrap%20Grid/3-%20How%20the%20Bootstrap%20Grid%20Works/start/index.html" target="_blank">
+                      <img src="img/fullstackconf.jpg" class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Full Stack Conf</h5>
+                      <p class="card-text">My first project using Bootstrap. Guided by Team Treehouse.</p>
+                    </div>
+                  </div>
+                </div><!-- //Column3 -->
+
+              </div><!-- /Row3 -->
+
+              <div class="row">
+
+                <div class="col-lg-4">
+                  <div class="card text-white bg-dark mb-3 shadow rounded">
+                    <a href="../conquer/index.html" target="_blank">
+                      <img src="img/conquer.jpg" class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Conquer Clone</h5>
+                      <p class="card-text">My attempt at copying a website template. The template can be found <a href="https://www.free-css.com/free-css-templates/page196/conquer" target="_blank">here</a>.</p>
+                    </div>
+                  </div>
+                </div><!-- //Column1 -->
+
+                <div class="col-lg-4">
+                  <div class="card text-white bg-dark mb-3 shadow rounded">
+                    <a href="../aarons-favourite-movies/index.html" target="_blank">
+                      <img src="img/aarons-favourite-movies.jpg" class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Aaron's Favourite Movies</h5>
+                      <p class="card-text">A Top 10 movie list that can be modified by the user. Built using JavaScript.</p>
+                    </div>
+                  </div>
+                </div><!-- //Column2 -->
+
+                <div class="col-lg-4">
+                  <div class="card text-white bg-dark mb-3 shadow rounded">
+                    <a href="../auspolassay/index.html" target="_blank">
+                      <img src="img/onefiftyone.jpg" class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">OneFiftyOne</h5>
+                      <p class="card-text">Dedicated to the next Australian Federal Election. Built using my HTML and CSS skills.</p>
+                    </div>
+                  </div>
+                </div><!-- //Column3 -->
+
+              </div><!-- /Row2 -->
+
+              <div class="row">
+
+                <div class="col-lg-4">
+                  <div class="card text-white bg-dark mb-3 shadow rounded">
+                    <a href="../cityquiz/index.html" target="_blank">
+                      <img src="img/cityquiz.jpg" class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Capital City Quiz</h5>
+                      <p class="card-text">Test your knowledge of capital cities around the world! Built using my JavaScript skills.</p>
+                    </div>
+                  </div>
+                </div><!-- //Column1 -->
+
+                <div class="col-lg-4">
+                  <div class="card text-white bg-dark mb-3 shadow rounded">
+                    <a href="../project/index.html" target="_blank">
+                      <img src="img/experiencevr.jpg" class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Experience VR & More</h5>
+                      <p class="card-text">Outlines the possibilities of VR. Built using my HTML and CSS skills.</p>
+                    </div>
+                  </div>
+                </div><!-- //Column2 -->
+
+                <div class="col-lg-4">
+                  <div class="card text-white bg-dark mb-3 shadow rounded">
+                    <a href="../tributepage/tributepage.html" target="_blank">
+                      <img src="img/tributepage.jpg" class="card-img-top" alt="">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">Tribute Page</h5>
+                      <p class="card-text">A tribute page. Built using my HTML skills.</p>
+                    </div>
+                  </div>
+                </div><!-- //Column3 -->
+
+              </div><!-- /Row1 -->
+
+            </div><!-- /Card Deck  -->
+          </div><!-- /Container  -->
+        </div><!-- /Projects  -->
+
+        <div id="contactMe">
+          <div class="jumbotron jumbotron-fluid text-center section-headers">
+            <h2 class="display-5">Contact Me</h2>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <section class="col-lg-6 mb-5">
+                <h4 class="text-muted mb-3">Links</h4>
+                <span class="text-muted">Contact me by email or connect with me on social media.</span>
+                <ul class="justify-content-left">
+                  <li>
+                    <a class="nav-link" href="mailto:liege88@gmail.com">
+                      <img src="img/145797-social-network-logo-collection/svg/email.svg" alt="">
+                    Email</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="https://www.facebook.com/danny.ward.5076" target="_blank">
+                      <img src="img/145797-social-network-logo-collection/svg/facebook.svg" alt="">
+                    Facebook</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="https://twitter.com/Dannaroo" target="_blank">
+                      <img src="img/145797-social-network-logo-collection/svg/twitter.svg" alt="">
+                    Twitter</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="https://www.instagram.com/dannaroo/" target="_blank">
+                      <img src="img/145797-social-network-logo-collection/svg/instagram.svg" alt="">
+                    Instagram</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="https://github.com/Dannaroo" target="_blank">
+                      <img src="img/145797-social-network-logo-collection/svg/github.svg" alt="">
+                    GitHub</a>
+                  </li>
+                </ul>
+              </section><!-- /Column -->
+              <section class="col-lg-6 mb-5">
+                <h4 class="text-muted mb-3">Send Me A Message</h4>
+                  <form class="text-right">
+                    <div class="form-group form-row">
+                      <label for="name" class="col-sm-4 col-form-label">Your Name</label>
+                      <div class="col-sm-8">
+                        <input type="text" id="name" name="user_name" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group form-row">
+                      <label for="mail" class="col-sm-4 col-form-label"> Your Email Address</label>
+                      <div class="col-sm-8">
+                        <input type="email" id="mail" name="user_email" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group form-row">
+                      <label for="subject" class="col-sm-4 col-form-label"> Your Message Subject</label>
+                      <div class="col-sm-8">
+                        <input type="text" id="subject" name="user_subject" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-group form-row">
+                      <label for="message" class="col-sm-4 col-form-label">Your Message</label>
+                      <div class="col-sm-8">
+                        <textarea rows="4" cols="20" id="message" name="user_message" class="form-control"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group form-row">
+                      <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary mb-2">Send Your Message</button>
+                      </div>
+                  </form>
+              </section><!-- /Column -->
+            </div><!-- /Row1  -->
+          </div><!-- /Container  -->
+        </div><!-- /Contact Me  -->
+
+      </main>
+
+    </div> <!-- /Wrapper -->
+
+    <footer>
+      <a href="#top">Back to top &raquo;</a>
+      <div><span><small>Written and coded by Danny Ward</small></span><br></div>
+      <div><small>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small></div>
+
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
 </html>

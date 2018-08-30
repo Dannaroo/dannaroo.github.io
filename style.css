@@ -11,30 +11,7 @@ body {
   line-height: 1.6;
   color: #3a3a3a;
   margin: 0;
-}
-
-p {
-	font-size: .95em;
-	margin-bottom: 1em;
-  letter-spacing: .07em;
-}
-
-h1 {
-  margin-top: 30px;
-}
-
-h2,
-h3,
-a {
-	color: white;
-
-}
-
-h2,
-h3 {
-	margin-top: 0;
-  margin-bottom: 5px;
-  text-decoration: underline;
+  background-image: linear-gradient(black 35%, white);
 }
 
 a {
@@ -42,202 +19,123 @@ a {
 
 }
 
-
-
 /* =================================
-  Base Layout Styles
+  Header Styles
 ==================================== */
 
-/* ---- Navigation ---- */
-
-.name {
-	font-size: 1.5em;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 110%;
-  text-shadow: 1px 1px 1px;
-  background: rgba(0, 0, 0, 0.5);
-
-}
-
-.main-nav li {
-	text-align: center;
-  border: white 5px solid;
-  letter-spacing: 150%;
-  list-style-type: none;
-  text-shadow: 1px 1px 1px;
-  margin: 6px auto;
-  width: 10em;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.name a,
-.main-nav a {
-	padding: 10px 15px;
-	text-align: center;
-	display: block;
-
-}
-
-  .name {
-    display: inline-block;
-    margin-right: -3.5px;
-    padding: 5px;
-  }
-
-	.main-nav a {
-		font-size: 1.2em;
-		color: white;
-		text-transform: uppercase;
-	}
-
-	.main-nav a:hover {
-		color: black;
-    background-color: white;
-    text-shadow: none;
-	}
-
-  ul {
-    padding: 0;
-  }
-
-  .face {
-    border-radius: 50%;
-    margin: auto;
-    width: 200px;
-    display: block;
-    border: 5px solid white;
-  }
-
-  /* ---- Layout Containers ---- */
-
-.container {
-  padding-left: .5em;
-	padding-right: .5em;
-}
-
-.main-header {
+header .jumbotron {
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
-	background: #000 url('img/background.jpg') no-repeat left;
-  background-size: 769px;
-	/* margin-bottom: 30px; */
+	background: #000 url('img/background.jpg') no-repeat center;
+  background-size: cover;
   text-align: center;
+  color: white;
+  margin-top: 2rem;
 }
 
-.main-footer {
+.face {
+  border-radius: 50%;
+  margin: auto;
+  width: 200px;
+  display: block;
+  border: 5px solid white;
+  box-shadow: 5px 5px 15px black;
+}
+
+header h1,
+header span {
+  text-shadow: 1px 1px 3px black;
+  font-size: .7rem;
+}
+
+#jumbo-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+#jumbo-span {
+  font-size: 1rem;
+}
+
+header nav {
+  margin-bottom: 0;
+  position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+  z-index: 100;
+}
+
+#navbarNav {
+  justify-content: center;
+  line-height: 3rem;
+  font-size: 1.2rem;
+}
+
+/* =================================
+  Main Content Styles
+==================================== */
+
+.section-headers {
+  background-color: steelblue;
+  color: white;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+#contactMe input,
+#contactMe textarea {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#contactMe img {
+  width: 3rem;
+}
+
+#contactMe ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  margin-top: 3rem;
+  flex-direction: column;
+}
+
+/* =================================
+  Footer Styles
+==================================== */
+
+footer {
 	text-align: center;
 	padding: 2em 0;
 	background: #d9e4ea;
 }
 
-/* ---- Main Content Styles ---- */
+/* =================================
+	Media Queries
+==================================== */
 
-.main-content {
-  padding: 10px;
-  /* margin: 30px 10px; */
-  background-color: grey;
+@media(min-width: 768px) {
+  #contactMe ul {
+    flex-direction: row;
 }
 
-/* ---- Page Elements ---- */
-
-  /*Contact Me Section */
-form label,
-form input,
-form textarea {
-  text-align: left;
-  margin: 2px 2px;
-  padding: 2px 2px;
-  display: block;
-
-}
-
-button {
-  border-radius: 5px;
-  margin: 7px 2px;
-  padding: 3px 3px;
-  border: solid black 2px;
-  background-color: white;
-  color: black;
-  font-weight:bold;
-  letter-spacing: .08em;
-  display: block;
-}
-
-button:hover {
-  color: white;
-  background-color: green;
-  border-color: white;
-}
-
-  /*Column Images */
-
-.col img {
-  width: 320px;
-}
-
-  /*Send Me a Message */
-
-form input,
-form textarea {
-  border-radius: 5px 10px;
-  box-shadow: 2px 4px;
-}
-
-  /* ---- Media Queries ---- */
-
-  @media (min-width: 768px) {
-      /* ---- Header Styles ---- */
-
-      .main-header {
-        background-size: 100%;
-      }
-
-      .main-nav li {
-
-        display: inline-block;
-        margin: 0 10px;
-
-      }
-
-
-
-      header .face:hover,
-      .main-nav li:hover {
-        transform: scale(1.2) rotate(360deg);
-      }
-
-      /* ---- Main Content Styles ---- */
-
-      .main-content {
-        width: 80%;
-        max-width: 1100px;
-        margin: 0 auto;
-        text-align: center;
-      }
-
-      .col {
-        display: inline-block;
-        margin: .7em .7em;
-        vertical-align: top;
-      }
-
-      .contact {
-        display: block;
-      }
-
-      .intro {
-
-      }
-      /*Column Images */
-
-    .col img {
-      width: 400px;
-      max-height: 225px;
-    }
+@media(min-width: 992px) {
+  header .jumbotron {
+    min-height: 50rem;
+    margin-top: 4.1rem;
+    margin-bottom: 6rem;
   }
-  @media (min-width: 1200px) {
 
-    .col {
-      width: 47%;
-    }
+  #jumbo-title{
+    font-size: 3.5rem;
+  }
+
+  #jumbo-span {
+    font-size: 1.25rem;
+  }
+
+  .face {
+    margin-top: 3rem;
+  }
+}
