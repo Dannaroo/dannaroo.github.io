@@ -1,3 +1,4 @@
 -On Medium screen sizes. My Project cards should be in two columns not 1.
 -smooth scrolling -DONE
 -scrolling to nav links and scroll ends at top of jumbotron not text.
+-back to top button should be smooth scroll.
