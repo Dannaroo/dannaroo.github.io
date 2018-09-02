@@ -138,4 +138,10 @@ footer {
   .face {
     margin-top: 3rem;
   }
+
+#contactMe ul,
+#contactMe ul li a{
+  text-align: center;
+  }
+
 }
