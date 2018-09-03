@@ -2,3 +2,4 @@
 -smooth scrolling -DONE
 -scrolling to nav links and scroll ends at top of jumbotron not text.
 -back to top button should be smooth scroll.
+-update nav links in all project footers
