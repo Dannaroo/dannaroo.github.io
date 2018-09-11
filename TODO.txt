@@ -3,3 +3,4 @@
 -scrolling to nav links and scroll ends at top of jumbotron not text.
 -back to top button should be smooth scroll.
 -update nav links in all project footers
+-Nav Links should highlight on scroll when window is centered on div in question.
