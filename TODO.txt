@@ -1,6 +1,7 @@
 -On Medium screen sizes. My Project cards should be in two columns not 1.
 -smooth scrolling -DONE
--scrolling to nav links and scroll ends at top of jumbotron not text.
--back to top button should be smooth scroll.
--update nav links in all project footers
--Nav Links should highlight on scroll when window is centered on div in question.
+-scrolling to nav links and scroll ends at top of jumbotron not text.-DONE
+-back to top button should be smooth scroll.-DONE
+-update nav links in all project footers- DONE
+-Nav Links should highlight on scroll when window is centered 
+ on div in question-DONE.
