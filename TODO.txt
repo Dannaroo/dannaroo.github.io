@@ -5,3 +5,4 @@
 -update nav links in all project footers- DONE
 -Nav Links should highlight on scroll when window is centered 
  on div in question-DONE.
+-convert message form to autofill a new email.

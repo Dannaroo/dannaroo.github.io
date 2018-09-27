@@ -31,3 +31,12 @@ $("#backToTopButton").click(function() {
 });
 
 //end smooth scrollTop
+
+const submitMessageButton = document.querySelector('#submitMessageButton');
+
+submitMessageButton.addEventListener('click', (e) => {
+
+  e.preventDefault();
+  alert("Sorry. This message form doesn't work yet. Please email me instead: liege88@gmail.com");
+
+});
