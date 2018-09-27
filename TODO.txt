@@ -6,3 +6,4 @@
 -Nav Links should highlight on scroll when window is centered 
  on div in question-DONE.
 -convert message form to autofill a new email.
+-add CSS effects on hover of individual projects.
