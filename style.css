@@ -14,9 +14,10 @@ body {
   background-image: linear-gradient(black 35%, white);
 }
 
-a {
+a,
+a:hover {
 	text-decoration: none;
-
+  color: inherit;
 }
 
 /* =================================
@@ -101,6 +102,13 @@ header nav {
   flex-direction: column;
 }
 
+.card {
+  box-shadow: 1rem 1rem 1rem rgba(0,0,0,.15)
+}
+.card:hover {
+  box-shadow: 1rem 1rem 3rem steelblue;
+}
+
 /* =================================
   Footer Styles
 ==================================== */
@@ -142,6 +150,10 @@ footer {
 #contactMe ul,
 #contactMe ul li a{
   text-align: center;
+  }
+
+  .card {
+    margin: 2.5rem;
   }
 
 }
