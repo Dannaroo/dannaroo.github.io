@@ -3,7 +3,7 @@
 -scrolling to nav links and scroll ends at top of jumbotron not text.-DONE
 -back to top button should be smooth scroll.-DONE
 -update nav links in all project footers- DONE
--Nav Links should highlight on scroll when window is centered 
+-Nav Links should highlight on scroll when window is centered -DONE
  on div in question-DONE.
 -convert message form to autofill a new email.
--add CSS effects on hover of individual projects.
+-add CSS effects on hover of individual projects.- DONE
